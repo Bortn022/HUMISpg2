@@ -1,0 +1,188 @@
+strong {
+    font-weight: bolder;
+    letter-spacing: 0.05rem;
+    font-size: 14px;
+}
+
+div.container{
+    width: 780px;
+    min-height: 800px;
+    margin: 0 auto;
+    font-family: helvetica, arial, sans-serif;
+    background-color: white;
+    letter-spacing: 0.05rem;
+}
+
+.container header {
+    margin: 0;
+    max-height: 75px;
+}
+
+/*navigation*/
+.top-nav {
+    display: flex;
+    justify-content: right;
+    padding-right: 10px;
+}
+
+.nav a{
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 10px;
+    align-self: center;
+}
+
+span {
+    display: flex;
+    height: 18px;
+    margin-top: 3px;
+    align-self: center;
+}
+
+span:after {
+    margin: 0 5px;
+    content: " |";
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+.top-nav a img {
+    padding-top: 5px;
+    width: 14px;
+    height: auto;
+}
+
+/*main content*/
+
+section.guts {
+    background-color: white;
+}
+
+div.middle section.guts aside.nav{
+    float: left;
+    width: 180px;
+    border-right: solid #D2D2BB 2px;
+    padding: 10px;
+    margin: 0;
+    background-color: #f1f1f1;
+    min-height: 700px;
+}
+
+aside.nav a {
+    display: block;
+    border-bottom: 2px solid #778a3a;
+    text-align: left;
+    padding: 10px 5px;
+}
+
+aside.nav a:hover{
+    background-color: #778a3a;
+    color: #D2D2BB;
+}
+
+div.nav-img-links{
+    text-align: left;
+    margin-top: 350px;
+}
+
+div.nav-img-links a {
+    border-bottom: unset;
+}
+
+div.nav-img-links a:hover {
+    background-color: unset;
+}
+
+article.main div.content {
+    display: block;
+    width: 550px;
+}
+
+div.middle section.guts article.main{
+    float: right;
+}
+
+article.main div.main-content{
+    min-height: 625px;
+    display: flex;
+}
+
+div.title {
+    border-bottom: 10px solid #cc1616;
+}
+
+div.title h1{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #cc1616;
+    margin: 10px 0 -8px 10px;
+    letter-spacing: -0.03rem;
+}
+
+article.main p{
+    font-size: 12px;
+}
+
+article.main a {
+    text-align: left;
+    margin: 0.5rem 0;
+    color: black;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+article.main a:hover {
+    text-decoration: underline;
+}
+
+article.main div.left-stuff {
+    width: 170px;
+    border-right: 2px dotted grey;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+article.main div.left-stuff a{
+    display: block;
+}
+
+div.left-stuff h5{
+    font-size: 13px;
+    font-weight: bolder;
+    letter-spacing: -0.01rem;
+    margin: 2px 0;
+}
+
+article.main div.right-stuff {
+    width: 350px;
+    padding: 10px;
+}
+
+div.right-stuff img{
+    width: 350px;
+    margin-top: 3px;
+}
+
+.bottom-nav {
+    display: flex;
+    justify-content: right;
+}
+
+.bottom-nav a{
+    font-size: 10px;
+    text-transform: none;
+}
+
+/*footer*/
+footer {
+    background-color: #778a3a;
+    color: white;
+    font-size: 9px;
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+}
